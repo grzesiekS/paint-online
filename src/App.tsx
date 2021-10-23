@@ -1,9 +1,9 @@
 import React from 'react';
 
-import './App.css';
+import { Canvas } from './components/features/Canvas/Canvas';
 
 export const App: React.FC = () => (
   <div>
-    <h1>Hello World!</h1>
+    <Canvas />
   </div>
 );
